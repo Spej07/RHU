@@ -270,7 +270,7 @@ public void logEvent(int userId, String username, String description) {
                 jButton1MouseClicked(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 310, 110, 50));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 230, 110, 50));
 
         Submit.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         Submit.setText("Submit");
@@ -279,7 +279,7 @@ public void logEvent(int userId, String username, String description) {
                 SubmitMouseClicked(evt);
             }
         });
-        jPanel1.add(Submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 230, 110, 50));
+        jPanel1.add(Submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 310, 110, 50));
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

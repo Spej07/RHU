@@ -118,8 +118,8 @@ while (rs.next()) {
         jPanel4.add(cancel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 130, 30));
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 3, 24)); // NOI18N
-        jLabel1.setText("CHECK UPS");
-        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, -1, -1));
+        jLabel1.setText("RESERVATION FOR THE CHECKUP");
+        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 520, -1));
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 840, 380));
 

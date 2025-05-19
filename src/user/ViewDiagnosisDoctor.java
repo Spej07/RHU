@@ -118,7 +118,7 @@ public class ViewDiagnosisDoctor extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("PATIENT CHECKUP DETAILS");
+        jLabel4.setText("RESERVATION FOR CHECKUP");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(110, 10, 530, 30);
 

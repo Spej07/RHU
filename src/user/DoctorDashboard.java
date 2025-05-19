@@ -208,23 +208,23 @@ public class DoctorDashboard extends javax.swing.JFrame {
         jPanel6.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 590, -1));
 
         acc_type.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        acc_type.setText("patient");
+        acc_type.setText("TAWTAW");
         jPanel6.add(acc_type, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 450, -1));
 
         acc_email.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
-        acc_email.setText("email sa katawhan");
+        acc_email.setText("email ");
         jPanel6.add(acc_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 410, 30));
 
         acc_lname.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        acc_lname.setText("last name sa katawhan");
+        acc_lname.setText("last name");
         jPanel6.add(acc_lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 460, 40));
 
         acc_fname.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        acc_fname.setText("first name sa katawhan");
+        acc_fname.setText("first name ");
         jPanel6.add(acc_fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 480, 40));
 
         acc_uname.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        acc_uname.setText("username sa katawhan");
+        acc_uname.setText("username");
         jPanel6.add(acc_uname, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 430, 30));
 
         jPanel1.add(jPanel6);

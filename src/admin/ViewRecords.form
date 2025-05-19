@@ -132,11 +132,11 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Century Gothic" size="24" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="CHECK UPS"/>
+            <Property name="text" type="java.lang.String" value="RESERVATION FOR THE CHECKUP"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="370" y="10" width="-1" height="-1"/>
+              <AbsoluteConstraints x="250" y="10" width="520" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
