@@ -33,25 +33,25 @@ public class ViewRecords extends javax.swing.JFrame {
             Statement stmt = conn.createStatement();
 
             // Corrected SQL query based on your table structure
-            String sql = "SELECT d_id, u_id, patient, diagnosis, doctor "
-                    + "FROM tbl_diagnosis";
+          String sql = "SELECT d_id, u_id, patient, checkups, doctor "
+           + "FROM tbl_diagnosis";
 
-            ResultSet rs = stmt.executeQuery(sql);
+ResultSet rs = stmt.executeQuery(sql);
 
-            DefaultTableModel model = (DefaultTableModel) tbltransaction.getModel();
-            model.setRowCount(0); // Clear existing data
+DefaultTableModel model = (DefaultTableModel) tbltransaction.getModel();
+model.setRowCount(0); // Clear existing data
 
-            // Loop through the result set and add each row to the table model
-            while (rs.next()) {
-                Object[] row = {
-                    rs.getInt("d_id"), // Diagnosis ID
-                    rs.getInt("u_id"), // User ID
-                    rs.getString("patient"), // Patient
-                    rs.getString("check-ups"), // Diagnosis
-                    rs.getString("doctor") // Doctor
-                };
-                model.addRow(row);
-            }
+// Loop through the result set and add each row to the table model
+while (rs.next()) {
+    Object[] row = {
+        rs.getInt("d_id"),       // Diagnosis ID
+        rs.getInt("u_id"),       // User ID
+        rs.getString("patient"), // Patient
+        rs.getString("checkups"),// Checkups (formerly diagnosis)
+        rs.getString("doctor")   // Doctor
+    };
+    model.addRow(row);
+}
 
             conn.close();
         } catch (Exception e) {
@@ -99,10 +99,10 @@ public class ViewRecords extends javax.swing.JFrame {
         ));
         jScrollPane6.setViewportView(tbltransaction);
 
-        jPanel4.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 640, 350));
+        jPanel4.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 850, 250));
 
         cancel1.setBackground(new java.awt.Color(255, 255, 255));
-        cancel1.setFont(new java.awt.Font("Yu Gothic UI", 1, 12)); // NOI18N
+        cancel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         cancel1.setForeground(new java.awt.Color(27, 57, 77));
         cancel1.setText("Cancel");
         cancel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -115,13 +115,13 @@ public class ViewRecords extends javax.swing.JFrame {
                 cancel1ActionPerformed(evt);
             }
         });
-        jPanel4.add(cancel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, 90, 40));
+        jPanel4.add(cancel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 130, 30));
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 3, 24)); // NOI18N
-        jLabel1.setText("CHECK UP UPDATES");
-        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
+        jLabel1.setText("CHECK UPS");
+        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, -1, -1));
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 500));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 840, 380));
 
         pack();
         setLocationRelativeTo(null);
@@ -163,6 +163,8 @@ public class ViewRecords extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(ViewRecords.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
