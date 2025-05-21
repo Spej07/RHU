@@ -138,7 +138,7 @@ public class Signup extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jPanel41.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel41.setBackground(new java.awt.Color(204, 255, 204));
         jPanel41.setPreferredSize(new java.awt.Dimension(400, 500));
         jPanel41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel41.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, -1, -1));
@@ -174,7 +174,7 @@ public class Signup extends javax.swing.JFrame {
                 fnameActionPerformed(evt);
             }
         });
-        jPanel41.add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, 300, 30));
+        jPanel41.add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, 300, 40));
 
         lname.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         lname.addActionListener(new java.awt.event.ActionListener() {
@@ -182,7 +182,7 @@ public class Signup extends javax.swing.JFrame {
                 lnameActionPerformed(evt);
             }
         });
-        jPanel41.add(lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 300, 30));
+        jPanel41.add(lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 300, 40));
 
         username.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         username.addActionListener(new java.awt.event.ActionListener() {
@@ -190,7 +190,7 @@ public class Signup extends javax.swing.JFrame {
                 usernameActionPerformed(evt);
             }
         });
-        jPanel41.add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 300, 30));
+        jPanel41.add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 300, 40));
 
         email.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         email.addActionListener(new java.awt.event.ActionListener() {
@@ -198,7 +198,7 @@ public class Signup extends javax.swing.JFrame {
                 emailActionPerformed(evt);
             }
         });
-        jPanel41.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 330, 310, 30));
+        jPanel41.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 330, 310, 40));
         jPanel41.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
         jPanel41.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, -1, -1));
 
@@ -215,7 +215,7 @@ public class Signup extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel41.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 110, 40));
+        jPanel41.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 420, 110, 40));
 
         stats.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         stats.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -242,7 +242,7 @@ public class Signup extends javax.swing.JFrame {
         jPanel41.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 420, 110, 40));
 
         password.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jPanel41.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, 300, 30));
+        jPanel41.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, 300, 40));
 
         dob1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         dob1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -250,7 +250,7 @@ public class Signup extends javax.swing.JFrame {
         jPanel41.add(dob1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 290, 270, 30));
 
         Cpassword.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jPanel41.add(Cpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 300, 30));
+        jPanel41.add(Cpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 300, 40));
 
         check.setBackground(new java.awt.Color(255, 255, 255));
         check.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -267,7 +267,7 @@ public class Signup extends javax.swing.JFrame {
         jPanel41.add(sq, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 300, -1));
 
         answ.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jPanel41.add(answ, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 290, 300, 30));
+        jPanel41.add(answ, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 290, 300, 40));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -288,13 +288,11 @@ public class Signup extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, 613, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel41, javax.swing.GroupLayout.DEFAULT_SIZE, 617, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, 512, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, 466, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();

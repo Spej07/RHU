@@ -290,7 +290,7 @@ public class CreateUser extends javax.swing.JFrame {
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(u_image, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -299,16 +299,16 @@ public class CreateUser extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(u_image, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        jPanel10.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 250, 210));
+        jPanel10.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 250, 210));
 
         sq.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "What's the name of your first pet?", "What's the lastname of your Mother?", "What's your favorite food?", "What's your favorite Color?", "What's your birth month?" }));
-        jPanel10.add(sq, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 370, -1, -1));
+        jPanel10.add(sq, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
 
         ans.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jPanel10.add(ans, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 240, 30));
+        jPanel10.add(ans, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 240, 30));
 
         select.setBackground(new java.awt.Color(255, 255, 255));
         select.setText("SELECT");
@@ -318,7 +318,7 @@ public class CreateUser extends javax.swing.JFrame {
                 selectActionPerformed(evt);
             }
         });
-        jPanel10.add(select, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 80, 30));
+        jPanel10.add(select, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 80, 30));
 
         remove.setBackground(new java.awt.Color(255, 255, 255));
         remove.setText("REMOVE");
@@ -328,7 +328,7 @@ public class CreateUser extends javax.swing.JFrame {
                 removeActionPerformed(evt);
             }
         });
-        jPanel10.add(remove, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, 80, 30));
+        jPanel10.add(remove, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 80, 30));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -413,7 +413,7 @@ public class CreateUser extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel1.setText("CREATE USER");
-        jPanel10.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
+        jPanel10.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
         add.setBackground(new java.awt.Color(204, 204, 204));
         add.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -423,7 +423,7 @@ public class CreateUser extends javax.swing.JFrame {
                 addActionPerformed(evt);
             }
         });
-        jPanel10.add(add, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 380, 130, 40));
+        jPanel10.add(add, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 100, 130, 40));
 
         jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
@@ -433,7 +433,7 @@ public class CreateUser extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel10.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 380, 130, 40));
+        jPanel10.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 60, 130, 40));
 
         cl.setBackground(new java.awt.Color(204, 204, 204));
         cl.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -444,7 +444,7 @@ public class CreateUser extends javax.swing.JFrame {
                 clActionPerformed(evt);
             }
         });
-        jPanel10.add(cl, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 430, 130, 40));
+        jPanel10.add(cl, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 140, 130, 40));
 
         cc.setBackground(new java.awt.Color(204, 204, 204));
         cc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -454,7 +454,7 @@ public class CreateUser extends javax.swing.JFrame {
                 ccActionPerformed(evt);
             }
         });
-        jPanel10.add(cc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 440, 130, 40));
+        jPanel10.add(cc, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 180, 130, 40));
 
         getContentPane().add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 490));
 
