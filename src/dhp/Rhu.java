@@ -94,7 +94,6 @@ public class Rhu extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         password = new javax.swing.JPasswordField();
@@ -170,22 +169,18 @@ public class Rhu extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(0, 102, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("Health Data, Made Simple");
-        right.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 380, -1));
+        jLabel9.setText("\"Smart Health, Simple Access.\"");
+        right.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 380, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gwapo ko\\Desktop\\val2\\test\\src\\image\\clinic1-removebg-preview.png")); // NOI18N
-        right.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 300, 190));
-
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-medical-records-100.png"))); // NOI18N
-        right.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, 100, 120));
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gwapo ko\\Downloads\\public-health-department.jpg")); // NOI18N
+        right.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 350, 290));
 
         jLabel12.setBackground(new java.awt.Color(51, 102, 255));
         jLabel12.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 153, 255));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("RURAL HEALTH UNIT APP");
-        right.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 380, -1));
+        right.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 380, -1));
 
         jPanel1.add(right, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 460));
 
@@ -346,7 +341,6 @@ try {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
