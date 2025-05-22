@@ -191,7 +191,7 @@ public class Records extends javax.swing.JFrame {
 
     String sql = "SELECT u_id, u_fname, u_lname, u_username, u_email, u_status FROM tbl_user";
 
-    try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhpapp", "root", "");
+    try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rhuapp", "root", "");
          PreparedStatement pst = con.prepareStatement(sql);
          ResultSet rs = pst.executeQuery()) {
 
@@ -225,7 +225,7 @@ public class Records extends javax.swing.JFrame {
     if (confirm == JOptionPane.YES_OPTION) {
         String sql = "DELETE FROM tbl_user WHERE u_id=?";
 
-        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhpapp", "root", "");
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rhuapp", "root", "");
              PreparedStatement pst = con.prepareStatement(sql)) {
 
             pst.setInt(1, userId);

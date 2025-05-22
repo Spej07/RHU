@@ -99,7 +99,7 @@ while (rs.next()) {
         ));
         jScrollPane6.setViewportView(tbltransaction);
 
-        jPanel4.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 850, 250));
+        jPanel4.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 1090, 310));
 
         cancel1.setBackground(new java.awt.Color(255, 255, 255));
         cancel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -115,13 +115,13 @@ while (rs.next()) {
                 cancel1ActionPerformed(evt);
             }
         });
-        jPanel4.add(cancel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 10, 130, 30));
+        jPanel4.add(cancel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 10, 130, 30));
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 3, 24)); // NOI18N
         jLabel1.setText("RESERVATION FOR THE CHECKUP");
-        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 520, -1));
+        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 0, 520, -1));
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 840, 380));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 290));
 
         pack();
         setLocationRelativeTo(null);
