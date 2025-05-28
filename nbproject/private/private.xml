@@ -3,25 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/PatientDetails.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/RequestReservation.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/addDiagnosis.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/ViewDiagnosisDoctor.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/pickPatient.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/ForgetPassword.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/PatientDashboard.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/ViewRecords.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/DoctorDetails.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/DoctorDashboard.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/ChangePass.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/createUserf.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/AdminLogs.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/E_Add_Recovery.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/changePass.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/AppointmentF.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/config/dbConnect.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/Accounts.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/AddF.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/PatientF.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/adminUserf.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/EditF.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/Patient.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/ManagerDashboard.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/printing.java</file>
             <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/config/PanelPrinter.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/dhp/Rhu.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/user/Pchangepass.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/dhp/Signup.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/AdminDashboard.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/AdminDetails.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/Records.java</file>
-            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/CreateUser.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/login/ForgetPass.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/billingf.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/Admin_Add_Recovery.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/config/Session.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/DisplayA.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/Staff/NurseDashboard.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/login/loginf.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/Admin_Billing.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/Admin_printing.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/admin/Appointment.java</file>
+            <file>file:/C:/Users/Gwapo%20ko/Desktop/VALEEN/New%20folder/RHU/src/login/registerf1.java</file>
         </group>
     </open-files>
 </project-private>

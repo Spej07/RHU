@@ -39,11 +39,11 @@ public class NurseDashboard extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        firstn = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         lastn = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        firstn = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -113,12 +113,6 @@ public class NurseDashboard extends javax.swing.JFrame {
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, 130, 120));
 
-        firstn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        firstn.setForeground(new java.awt.Color(102, 102, 102));
-        firstn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        firstn.setText("USER");
-        jPanel1.add(firstn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 180, -1));
-
         jPanel2.setBackground(new java.awt.Color(204, 255, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -127,7 +121,7 @@ public class NurseDashboard extends javax.swing.JFrame {
         lastn.setForeground(new java.awt.Color(102, 102, 102));
         lastn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lastn.setText("USER");
-        jPanel2.add(lastn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, 180, -1));
+        jPanel2.add(lastn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 180, -1));
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-user-100_1.png"))); // NOI18N
@@ -144,14 +138,20 @@ public class NurseDashboard extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 90, 30));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 90, 30));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 200, 290));
+        firstn.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        firstn.setForeground(new java.awt.Color(102, 102, 102));
+        firstn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        firstn.setText("USER");
+        jPanel2.add(firstn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 180, -1));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 200, 370));
 
         jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED), "USER DASHBOARD", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("SansSerif", 1, 24), new java.awt.Color(102, 102, 102))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 310, 30));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 267));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 350));
 
         pack();
         setLocationRelativeTo(null);
