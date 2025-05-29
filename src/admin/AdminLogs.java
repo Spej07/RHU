@@ -34,7 +34,7 @@ public class AdminLogs extends javax.swing.JFrame {
      */
     public AdminLogs() {
         initComponents();
-      
+      displayData();
         
     }
 
@@ -238,4 +238,8 @@ public class AdminLogs extends javax.swing.JFrame {
     private javax.swing.JButton log;
     private javax.swing.JTable logstbl;
     // End of variables declaration//GEN-END:variables
+
+    private void displayData() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -33,7 +33,7 @@ public class Patient extends javax.swing.JFrame {
  public void displayData() {
     dbConnect dbc = new dbConnect();
     try {
-        String query = "SELECT p_id, p_firstname, p_lastname, p_age, "
+        String query = "SELECT p_id, p_firstname, p_lastname, p_age,p_gender, "
                      + "p_dob, p_address, p_contactNumber FROM tbl_patient";
 
         ResultSet rs = dbc.getData(query);
